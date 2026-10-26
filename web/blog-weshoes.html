@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>מחולל אפליקציות ב‑WeShoes | הבלוג של Softsolutions</title>
+  <meta name="description" content="סופטסולושנס השלימה הטמעה של מחולל האפליקציות ואתרי הלקוח בקולנוע חדש – כולל הזמנות ב‑SMS ללא התקנת אפליקציה.">
+  <link rel="alternate" hreflang="en" href="en/blog-weshoes.html">
+  <link rel="icon" href="images/logo-softsolutions.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="blog-weshoes">
+
+<header class="header" id="top">
+  <div class="container header__inner">
+    <button class="burger" id="burger" aria-label="פתיחת תפריט" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a href="index.html" class="brand" aria-label="Softsolutions – דף הבית">
+      <img src="images/logo-softsolutions.webp" alt="Softsolutions" class="brand__logo" width="300" height="300">
+    </a>
+
+    <nav class="nav" id="nav" aria-label="ניווט ראשי">
+      <div class="nav__head">
+        <a href="index.html" class="brand" aria-label="Softsolutions – דף הבית"><img src="images/logo-softsolutions.webp" alt="Softsolutions" class="brand__logo" width="300" height="300"></a>
+        <button class="nav__close" id="navClose" aria-label="סגירת תפריט">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="nav__group">
+        <button class="nav__link nav__toggle" aria-expanded="false">מוצרים</button>
+        <div class="nav__menu nav__menu--icons">
+          <a href="pod.html"><span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/></svg></span>הפצה ומעקב אספקות</a>
+          <a href="technicians.html"><span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></svg></span>טכנאי שטח</a>
+          <a href="sales-agents.html"><span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span>סוכני שטח</a>
+          <a href="wms.html"><span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 4.5v9L12 21l-8-4.5v-9z"/><path d="M4 7.5l8 4.5 8-4.5M12 12v9"/></svg></span>ניהול מחסנים WMS</a>
+          <a href="generators.html"><span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M17.5 14v7M14 17.5h7"/></svg></span>מחוללי אפליקציות ואתרים</a>
+          <a href="http://www.filesmile.co.il" target="_blank" rel="noopener"><span class="menu-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h8l5 5v13H6z"/><path d="M14 3v5h5M9 13h7M9 17h5"/></svg></span>ניהול מסמכים – FileSmile</a>
+        </div>
+      </div>
+      <div class="nav__group">
+        <button class="nav__link nav__toggle" aria-expanded="false">לקוחות</button>
+        <div class="nav__menu">
+          <a href="customers.html">הלקוחות שלנו</a>
+          <a href="stories.html">סיפורי הצלחה</a>
+        </div>
+      </div>
+      <div class="nav__group">
+        <button class="nav__link nav__toggle" aria-expanded="false">החברה</button>
+        <div class="nav__menu">
+          <a href="about.html">אודות</a>
+          <a href="partners.html">שותפים עסקיים</a>
+        </div>
+      </div>
+      <div class="nav__group is-active">
+        <button class="nav__link nav__toggle" aria-expanded="false">משאבים</button>
+        <div class="nav__menu">
+          <a href="demos.html">מערכות הדגמה</a>
+          <a href="https://www.softsolutions.co.il/documentation" target="_blank" rel="noopener">תיעוד ומדריכים</a>
+          <a href="forms.html">טפסים להורדה</a>
+          <a href="blog.html" aria-current="page">בלוג</a>
+          <a href="https://service.softsolutions.co.il/priportal/" target="_blank" rel="noopener">מרכז תמיכה</a>
+        </div>
+      </div>
+      <a href="en/blog-weshoes.html" class="lang-switch" hreflang="en" lang="en" title="English">EN</a>
+      <a href="contact.html" class="btn btn--primary btn--sm nav__cta">
+        יצירת קשר
+        <svg class="plane-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg>
+      </a>
+    </nav>
+    <div class="nav-overlay" id="navOverlay" hidden></div>
+  </div>
+</header>
+
+<main>
+<article class="post-page">
+  <header class="page-hero post-hero">
+    <div class="container post-hero__inner">
+      <nav class="crumbs" aria-label="פירורי לחם"><a href="index.html">בית</a><a href="blog.html">בלוג</a><span>מחולל אפליקציות ב‑WeShoes</span></nav>
+      <span class="b-tag">סיפורי לקוח</span>
+      <h1>מחולל אפליקציות ב‑WeShoes</h1>
+      <div class="post-meta">
+        <span class="post-meta__avatar" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span>סופטסולושנס</span><span>·</span><time datetime="2020-11-15">15 בנובמבר 2020</time><span>·</span><span>דקת קריאה</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="post-cover"><img src="images/weshoes-cover.webp" alt=""></div>
+    <div class="article">
+      <p>חברת סופטסולושנס בע"מ השלימה לאחרונה פרויקט הטמעה של מערכת מחולל אפליקציות ואתרי לקוח בחברת קולנוע חדש.</p>
+      <p>במסגרת הפרויקט הוטמעו מספר אפליקציות בקרב עובדי החברה, וכן מנגנון השולח SMS ללקוחות החברה לביצוע הזמנות דרך הנייד – ללא צורך בהתקנת אפליקציה.</p>
+      <blockquote>
+        <p>לפני הקמת המערכת, משרדי החברה היו מוצפים בטלפונים לטובת מידע עבור אנשי השטח שלנו. כיום כל אחד מהגורמים מפיק את הדוח או צופה בנתון הרלוונטי עבורו.</p>
+        <p>פרט לחיסכון בזמן, הסוכן בשטח נותן שירות טוב יותר ללקוחות שלו, כולל מעקב אחרי החבילות שבדרך לבית העסק וללקוחות הקצה. כמות הטלפונים על דברים פשוטים, שמבזבזים זמן יקר, נעלמה כמעט לגמרי.</p>
+        <p>בנוסף, בעזרת המערכת בנינו יכולות איסוף מידע מעובדי חברות שאיתן חתמנו על חוזה מוצרים – באמצעות דף נחיתה שנשלח ישירות לעובדים ב‑SMS.</p>
+        <p>אין מחלקה שמחולל האפליקציות לא קידם אצלנו – החל ממתן גישה ללקוחות למידע שלהם ועד היכולת להכניס הזמנות למערכת הפריוריטי שלנו.</p>
+        <cite>נדב קירשנר, מנהל מערכות המידע, קולנוע חדש</cite>
+      </blockquote>
+      <blockquote>
+        <p>הפרויקט כלל מצד אחד מתן אפשרות ללקוחות החברה להגדיר ישירות במערכת הפריוריטי של קולנוע חדש את סלי המוצרים לכל עובד, ומצד שני גישה מיידית דרך SMS, שבה כל עובד של לקוחות החברה יכול להזמין את מוצריו – תוך שמירה מלאה על בקרות המערכת ובהתאם לחוזים מול הלקוחות.</p>
+        <p>היישום כולו נעשה בצורה חלקה ומהירה, תוך שימוש בכל הלוגיקה העסקית שכבר קיימת במערכת הפריוריטי של קולנוע חדש, וללא צורך בפיתוחים ייעודיים.</p>
+        <cite>אלעד לגון, מנכ"ל סופטסולושנס</cite>
+      </blockquote>
+    </div>
+
+    <nav class="post-nav" aria-label="מאמרים סמוכים">
+      <a href="blog-version-10.html" class="post-nav__item"><small>המאמר הבא</small><b>אז מה חדש בגרסה?</b></a>
+      <a href="blog-generator-launch.html" class="post-nav__item post-nav__item--prev"><small>המאמר הקודם</small><b>המחולל כבר כאן</b></a>
+    </nav>
+  </div>
+</article>
+
+<section class="section section--tint">
+  <div class="container">
+    <header class="section__head reveal">
+      <span class="kicker">עוד מהבלוג</span>
+      <h2>אולי יעניין אותך גם</h2>
+    </header>
+    <div class="b-grid b-grid--3">
+      <a class="b-card reveal" href="blog-control-screens.html" data-cat="tips">
+        <div class="b-card__img"><img src="images/control-cover.webp" alt="" loading="lazy"></div>
+        <div class="b-card__body">
+          <div class="b-meta"><span class="b-tag">טיפים וטריקים</span><time datetime="2022-02-28">28 בפברואר 2022</time></div>
+          <h3>מסכי שליטה ובקרה</h3>
+          <p>כמעט בכל תהליך בעסק מתעורר הצורך להציג את הנתונים בצורה ברורה וחדה למשתמשים ולמנהלים. כך בונים מסך תצוגה מתחלפת במחולל הפורטלים.</p>
+          <span class="card__more">לקריאת המאמר</span>
+        </div>
+      </a>
+      <a class="b-card reveal" href="blog-wizard-mode.html" data-cat="tips">
+        <div class="b-card__img"><img src="images/wizard-cover.webp" alt="" loading="lazy"></div>
+        <div class="b-card__body">
+          <div class="b-meta"><span class="b-tag">טיפים וטריקים</span><time datetime="2022-02-09">9 בפברואר 2022</time></div>
+          <h3>מצב אשף</h3>
+          <p>לעיתים קרובות נרצה שתהליך יצירת התעודה מול הלקוח יהיה מובנה – צעד אחר צעד. בדיוק לשם כך נועד הסימון "אשף".</p>
+          <span class="card__more">לקריאת המאמר</span>
+        </div>
+      </a>
+      <a class="b-card reveal" href="blog-single-page.html" data-cat="tips">
+        <div class="b-card__img"><img src="images/single-cover.webp" alt="" loading="lazy"></div>
+        <div class="b-card__body">
+          <div class="b-meta"><span class="b-tag">טיפים וטריקים</span><time datetime="2022-02-09">9 בפברואר 2022</time></div>
+          <h3>עבודה במצב של דף בודד</h3>
+          <p>איך מציגים את כותרת התעודה, הטקסט החופשי והנספחים כיחידה אחת בדף בודד – מדריך ב‑3 צעדים.</p>
+          <span class="card__more">לקריאת המאמר</span>
+        </div>
+      </a>
+    </div>
+    <div class="center reveal"><a href="blog.html" class="btn btn--ghost">לכל המאמרים</a></div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container cta__inner">
+    <div>
+      <h2>הגיע הזמן להוציא את הפריוריטי לשטח</h2>
+      <p>ספרו לנו מה הארגון צריך – ונחזור עם הדגמה מותאמת.</p>
+    </div>
+    <div class="cta__actions">
+      <a href="contact.html" class="btn btn--light">
+        יצירת קשר
+        <svg class="plane-icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg>
+      </a>
+      <a href="tel:+97246213563" class="btn btn--outline-light" dir="ltr">04-6213563</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="index.html" class="brand brand--light">
+        <img src="images/logo-softsolutions.webp" alt="Softsolutions" class="brand__logo" width="300" height="300">
+      </a>
+      <p>פתרונות שטח מתקדמים לפריוריטי – כבר מעל 20 שנה.<br>רחוב המדע 2, יקנעם · <a href="tel:+97246213563" dir="ltr">04-6213563</a></p>
+      <div class="social">
+        <a href="https://www.linkedin.com/company/soft-solutions-ltd/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M6.5 8.5v10M6.5 5.5v.01M11 18.5v-6a3 3 0 0 1 6 0v6M11 10v8.5"/></svg>
+        </a>
+        <a href="https://www.facebook.com/softsolutions12" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UC6zUWjmD0k8VnorSsUFc1HA/about" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="4"/><path d="M10.5 9.5l4 2.5-4 2.5z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h5>מוצרים</h5>
+      <a href="pod.html">הפצה ומעקב אספקות</a>
+      <a href="technicians.html">טכנאי שטח</a>
+      <a href="sales-agents.html">סוכני שטח</a>
+      <a href="wms.html">ניהול מחסנים WMS</a>
+      <a href="generators.html">מחוללי אפליקציות ואתרים</a>
+      <a href="http://www.filesmile.co.il" target="_blank" rel="noopener">ניהול מסמכים – FileSmile</a>
+      
+    </div>
+    <div class="footer__col">
+      <h5>החברה</h5>
+      <a href="about.html">אודות</a>
+      <a href="partners.html">שותפים עסקיים</a>
+      <a href="customers.html">הלקוחות שלנו</a>
+      <a href="stories.html">סיפורי הצלחה</a>
+      <a href="contact.html">יצירת קשר</a>
+    </div>
+    <div class="footer__col">
+      <h5>משאבים</h5>
+      <a href="demos.html">מערכות הדגמה</a>
+      <a href="https://www.softsolutions.co.il/documentation" target="_blank" rel="noopener">תיעוד ומדריכים</a>
+      <a href="forms.html">טפסים להורדה</a>
+      <a href="blog.html">בלוג</a>
+      <a href="https://service.softsolutions.co.il/priportal/" target="_blank" rel="noopener">מרכז תמיכה</a>
+      
+    </div>
+  </div>
+  <div class="container footer__bottom">
+    <span>© <span id="year"></span> כל הזכויות שמורות לסופטסולושנס בע"מ</span>
+    <span class="footer__legal"><a href="privacy.html">מדיניות פרטיות</a><a href="accessibility.html">הצהרת נגישות</a></span>
+    <span class="credit">עיצוב ובנייה ע"י: <a class="credit__logo" href="https://ombee.co.il" target="_blank" rel="noopener"><img src="images/ombee-logo.webp" alt="OMBee – Graphic Design and UI/UX" width="800" height="230"></a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="a11y.js"></script>
+</body>
+</html>
